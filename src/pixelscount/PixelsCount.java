@@ -119,7 +119,7 @@ public class PixelsCount {
 
         while (sc.hasNextLine()) { //lê arquivo txt
             data = sc.nextLine();
-            charCode = Integer.parseInt(data, 2); // transforma binario em integer
+            charCode = Integer.parseInt(data, 2); //Converter String com representação binária (Base 2) para Inteiro
             str = new Character((char) charCode).toString();  //transforma integer em caractere
 
             System.out.print(str);
@@ -139,4 +139,4 @@ public class PixelsCount {
 
     }//end main
 
-}//end class PixelsCount
+}//end class PixelsCou
